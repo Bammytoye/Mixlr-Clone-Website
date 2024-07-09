@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
 .slideshow {
     position: relative;
     width: 100%;

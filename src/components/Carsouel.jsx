@@ -14,13 +14,13 @@ const Carousel = ({ images, interval = 3000 }) => {
     }, [images, interval]);
 
     return (
-        <div className='slideshow mb-10 px-5'>
+        <div className='slideshow'>
             {images.map((image, index) => (
                 <div
                     key={index}
                     className={`slide px-56 ${index === currentIndex ? 'active' : ''}`}
                 >
-                    {index === currentIndex && <Image src={image} alt={`Slide ${index}`} width={1300} height={1300} />}
+                    {index === currentIndex && <Image src={image} alt={`Slide ${index}`} width={1500} height={1500} />}
                 </div>
             ))}
         </div>

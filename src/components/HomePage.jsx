@@ -3,16 +3,16 @@ import { CgArrowUpO, CgController, CgServerless  } from "react-icons/cg";
 
 const HomePage = () => {
     return (
-        <section className='p-20'>
-            <div className='space-y-16'>
+        <section className='py-14'>
+            <div className='space-y-10'>
                 <div className='flex justify-center items-center'>
-                    <p className='text-5xl'>Professional audio  <br />
+                    <p className='text-5xl mb-5'>Professional audio  <br />
                         <span className='font-bold flex justify-center'> Simplified.</span>
                     </p>
                 </div>
 
                 <div className='flex justify-center items-center'>
-                    <p className='cursor-pointer font-bold text-xl border border-1 rounded-full p-5 bg-red-700 text-white hover:bg-red-400'>
+                    <p className='cursor-pointer font-bold text-xl border border-1 rounded-full px-16 py-5 bg-red-700 text-white hover:bg-red-400'>
                         Start free trial
                     </p>
                 </div>
